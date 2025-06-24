@@ -33,7 +33,7 @@ const Layout = ({ children }) => {
       <div className="hidden md:flex md:w-64 md:flex-col">
         <div className="flex flex-col flex-grow pt-5 bg-white border-r border-gray-200">
           <div className="flex items-center flex-shrink-0 px-4">
-            <h1 className="text-lg font-semibold text-gray-900">認知症AI支援</h1>
+            <h1 className="text-lg font-semibold text-gray-900">理解力/判断力測定AI</h1>
           </div>
           
           <div className="mt-5 flex-grow flex flex-col">
@@ -94,7 +94,7 @@ const Layout = ({ children }) => {
             </div>
             <div className="flex-1 h-0 pt-5 pb-4 overflow-y-auto">
               <div className="flex-shrink-0 flex items-center px-4">
-                <h1 className="text-lg font-semibold text-gray-900">認知症AI支援</h1>
+                <h1 className="text-lg font-semibold text-gray-900">理解力/判断力測定AI</h1>
               </div>
               <nav className="mt-5 px-2 space-y-1">
                 {navigation.map((item) => {
