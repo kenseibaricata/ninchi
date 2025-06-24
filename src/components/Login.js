@@ -20,7 +20,7 @@ const Login = ({ onLogin }) => {
       <div className="max-w-md w-full space-y-8">
         <div>
           <h2 className="mt-6 text-center text-3xl font-bold text-white">
-            認知症AI支援システム
+          理解力/判断力測定AIシステム
           </h2>
           <p className="mt-2 text-center text-sm text-blue-100">
             {step === 'credentials' ? 'サインインしてください' : '2段階認証コードを入力してください'}

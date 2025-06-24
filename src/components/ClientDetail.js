@@ -24,13 +24,13 @@ const ClientDetail = () => {
     address: '東京都渋谷区...',
     emergencyContact: '田中太郎（息子）',
     emergencyPhone: '090-9876-5432',
-    condition: '軽度認知障害の疑い',
+    condition: '軽度理解度低下の疑い',
     lastAssessment: '2024-01-15',
     riskLevel: 'medium'
   };
 
   const assessmentHistory = [
-    { date: '2024-01-15', mmse: 22, moca: 20, confidence: 85, notes: 'MMSEスコアが前回より3ポイント低下' },
+    { date: '2024-01-15', mmse: 22, moca: 20, confidence: 85, notes: '理解力スコアが前回より3ポイント低下' },
     { date: '2024-01-01', mmse: 25, moca: 23, confidence: 90, notes: '前回と同程度のスコア' },
     { date: '2023-12-15', mmse: 26, moca: 24, confidence: 88, notes: '初回評価、基準値設定' },
     { date: '2023-12-01', mmse: 28, moca: 26, confidence: 92, notes: '正常範囲内' }
@@ -100,7 +100,7 @@ const ClientDetail = () => {
               </div>
               <div className="flex-1">
                 <div className="flex items-center justify-between mb-1">
-                  <span className="text-sm font-medium">MMSE</span>
+                  <span className="text-sm font-medium">理解力</span>
                   <span className="text-sm text-gray-600">{assessment.mmse}/30</span>
                 </div>
                 <div className="w-full bg-gray-200 rounded-full h-2">
@@ -168,7 +168,7 @@ const ClientDetail = () => {
           <div>
             <p className="font-medium text-warning">要注意</p>
             <p className="text-sm text-gray-600 mt-1">
-              MMSEスコアが前回より3ポイント低下しています。追加評価を検討してください。
+              理解力スコアが前回より3ポイント低下しています。追加評価を検討してください。
             </p>
           </div>
         </div>
@@ -266,7 +266,7 @@ const ClientDetail = () => {
                       評価日
                     </th>
                     <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                      MMSE
+                      理解力
                     </th>
                     <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                       MoCA

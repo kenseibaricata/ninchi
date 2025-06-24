@@ -285,7 +285,7 @@ const NewSession = () => {
             <div>
               <h2 className="text-xl font-semibold text-gray-900">処理中</h2>
               <p className="mt-2 text-gray-600">
-                AIが音声を分析し、認知評価を行っています...
+                AIが音声を分析し、理解力/判断力の評価を行っています...
               </p>
             </div>
             <div className="w-full bg-gray-200 rounded-full h-2">
@@ -305,7 +305,7 @@ const NewSession = () => {
           <CheckCircleIcon className="mx-auto h-16 w-16 text-success" />
           <h1 className="mt-4 text-2xl font-bold text-gray-900">評価完了</h1>
           <p className="mt-2 text-gray-600">
-            AIによる認知評価が完了しました
+            AIによ理解力/判断力の評価が完了しました
           </p>
         </div>
 
@@ -319,14 +319,14 @@ const NewSession = () => {
             </div>
             <div className="mt-2">
               <span className="inline-flex px-2 py-1 text-xs font-semibold rounded-full bg-warning/20 text-warning">
-                軽度認知障害の疑い
+                軽度判断力低下の疑い
               </span>
             </div>
           </div>
 
           {/* 信頼度 */}
           <div className="card p-6 text-center">
-            <h3 className="text-lg font-medium text-gray-900">評価信頼度</h3>
+            <h3 className="text-lg font-medium text-gray-900">判断力信頼度</h3>
             <div className="mt-4">
               <div className="text-4xl font-bold text-success">85</div>
               <div className="text-sm text-gray-500">%</div>
