@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/ninchi/static/css/main.1cea961e.css",
-    "main.js": "/ninchi/static/js/main.5120d59b.js",
+    "main.js": "/ninchi/static/js/main.09391bdb.js",
     "index.html": "/ninchi/index.html",
     "main.1cea961e.css.map": "/ninchi/static/css/main.1cea961e.css.map",
-    "main.5120d59b.js.map": "/ninchi/static/js/main.5120d59b.js.map"
+    "main.09391bdb.js.map": "/ninchi/static/js/main.09391bdb.js.map"
   },
   "entrypoints": [
     "static/css/main.1cea961e.css",
-    "static/js/main.5120d59b.js"
+    "static/js/main.09391bdb.js"
   ]
 }
