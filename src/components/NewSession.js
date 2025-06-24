@@ -307,7 +307,7 @@ const NewSession = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {/* MMSE スコア */}
           <div className="card p-6 text-center">
-            <h3 className="text-lg font-medium text-gray-900">MMSE スコア</h3>
+            <h3 className="text-lg font-medium text-gray-900">理解力 スコア</h3>
             <div className="mt-4">
               <div className="text-4xl font-bold text-primary">22</div>
               <div className="text-sm text-gray-500">/ 30</div>
