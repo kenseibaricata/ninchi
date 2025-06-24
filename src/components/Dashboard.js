@@ -5,7 +5,6 @@ import {
   CheckCircleIcon,
   ClockIcon,
   UserGroupIcon,
-  ChartBarIcon,
   PlusIcon
 } from '@heroicons/react/24/outline';
 
@@ -16,7 +15,7 @@ const Dashboard = () => {
       id: 1,
       type: 'warning',
       client: '田中良子',
-      message: 'MMSEスコアが前回より3ポイント低下しています',
+      message: '理解力スコアが前回より3ポイント低下しています',
       timestamp: '2時間前'
     },
     {

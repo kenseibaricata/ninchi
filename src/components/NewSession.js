@@ -6,8 +6,6 @@ import {
   PlayIcon,
   PauseIcon,
   DocumentTextIcon,
-  UserIcon,
-  ClockIcon,
   CheckCircleIcon
 } from '@heroicons/react/24/outline';
 
@@ -20,7 +18,6 @@ const NewSession = () => {
   const [transcript, setTranscript] = useState('');
   const [selectedClient, setSelectedClient] = useState('');
   const [sessionType, setSessionType] = useState('');
-  const [processing, setProcessing] = useState(false);
   
   const intervalRef = useRef(null);
 
@@ -74,11 +71,9 @@ const NewSession = () => {
     setIsPaused(false);
     clearInterval(intervalRef.current);
     setStep('processing');
-    setProcessing(true);
     
     // モック処理時間
     setTimeout(() => {
-      setProcessing(false);
       setStep('results');
     }, 3000);
   };

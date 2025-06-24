@@ -10,7 +10,6 @@ import {
 } from '@heroicons/react/24/outline';
 
 const ClientDetail = () => {
-  const { id } = useParams();
   const navigate = useNavigate();
   const [activeTab, setActiveTab] = useState('overview');
 

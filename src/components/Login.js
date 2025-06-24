@@ -84,9 +84,9 @@ const Login = ({ onLogin }) => {
                 </div>
 
                 <div className="text-sm">
-                  <a href="#" className="font-medium text-primary hover:text-blue-700">
+                  <button type="button" className="font-medium text-primary hover:text-blue-700">
                     パスワードを忘れましたか？
-                  </a>
+                  </button>
                 </div>
               </div>
 
